@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="/icon/favicon- logo1.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500i,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <!--Tag meta "The Open Graph protocol" of Facebook.
             Tiene el proposito de al ser vinculada la pagina web en Facebook, el enlace aparesca junto con una imagen y una descripcion
         <meta property="og:image" content="Add image URL">
@@ -22,57 +24,80 @@
 <!--cuerpo-->
 <body>
     
-    <div class="contenedor">
-        <header> <!--cabecera-->
+    
+    <header> <!--cabecera-->
+        <div class="contenedor">
             <nav> <!--Navegacion-->
-                <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Acerca de</a></li>
-                        <li><a href="#">Productos</a></li>
-                        <li><a href="#">Contacto</a></li>
-                </ul>
+                <div class="logo">
+                    <a href="#"><img src="img/logo.jpg" alt=""></a>
+                </div>
+                <div class="nombres-nav">
+                    <a href="#">Inicio</a>
+                    <a href="#">Acerca de</a>
+                    <a href="#">Productos</a>
+                    <a href="#">Contacto</a>
+                </div>
             </nav>
-        </header>
-
-        <!--Secciones-->
-        <section class="main">
-            <div class="imagen">
-                <img src="/img/mountains.jpg" class="imagen-montaña">
+            <div class="contenedor-imagen">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, explicabo!</p>
             </div>
-            <section class="posts">
-                <article> <!--articulos-->
-                    <h2>Titulo del articulo</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab numquam nesciunt omnis officia ipsum nemo veniam. Iure iste laboriosam debitis numquam, illo nam, ad aliquam veritatis sunt nesciunt soluta!Dolore assumenda iste tenetur aliquam provident maiores tempore eius laudantium nostrum id impedit, sunt quae dolorum officiis cupiditate amet temporibus recusandae corrupti, dolores vel, aliquid consectetur reiciendis! Consequatur, quisquam distinctio.</p>
+        </div class="contenedor">
+        
+    </header> 
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab numquam nesciunt omnis officia ipsum nemo veniam. Iure iste laboriosam debitis numquam, illo nam, ad aliquam veritatis sunt nesciunt soluta!Dolore assumenda iste tenetur aliquam provident maiores tempore eius laudantium nostrum id impedit, sunt quae dolorum officiis cupiditate amet temporibus recusandae corrupti, dolores vel, aliquid consectetur reiciendis! Consequatur, quisquam distinctio.</p>
-                </article>
-            </section>
+    <section>
+
+        <div>
+            <div>
+                <img src="img/logo.jpg" alt="">
+            </div>
+        </div>
+    
+    </section>
+
+    <footer>
+
+        <div class="contenedor-redes-sociales">
+            <div class="redes-sociales">
+                <a href="#"><i class="fab fa-twitter"></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><iclass="fab fa-github"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!--Secciones-->
+ <!--    <section class="main">
+        <section class="posts">
+            <article>  --><!--articulos-->
+<!--                 <h2>Titulo del articulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates abnumquam nesciunt omnis officia ipsum nemo veniam. Iure iste laboriosamdebitis numquam, illo nam, ad aliquam veritatis sunt nesciunt soluta!Doloreassumenda iste tenetur aliquam provident maiores tempore eius laudantiumnostrum id impedit, sunt quae dolorum officiis cupiditate amet temporibusrecusandae corrupti, dolores vel, aliquid consectetur reiciendis!Consequatur, quisquam distinctio.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates abnumquam nesciunt omnis officia ipsum nemo veniam. Iure iste laboriosamdebitis numquam, illo nam, ad aliquam veritatis sunt nesciunt soluta!Doloreassumenda iste tenetur aliquam provident maiores tempore eius laudantiumnostrum id impedit, sunt quae dolorum officiis cupiditate amet temporibusrecusandae corrupti, dolores vel, aliquid consectetur reiciendis!Consequatur, quisquam distinctio.</p>
+            </article>
         </section>
+    </section>
 
-        <aside> 
-            <div class="widget">
-                <h3 class="titulo">Aticulos Destacados</h3>
-                <ul>
-                    <li><a href="#">Lorem ipsum dolor sit amet consectetur.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet consectetur.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet consectetur.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet consectetur.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet consectetur.</a></li>
-                </ul>
-            </div>
-            <div class="widget">
-                <h3 class="titulo">información</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minima autem sunt recusandae provident rerum sapiente quidem labore alias soluta veritatis eligendi aspernatur culpa ea repellendus hic cum, quasi debitis!</p>
-            </div>
-        </aside>
-
-        <!-- PIE DE PAGINA -->
-        <footer>
-            <p class="titulo-final">&copy; Gonzalo Guerrero</p>
-        </footer>
-
-
-    </div>
+    <aside> 
+        <div class="widget">
+            <h3 class="titulo">Aticulos Destacados</h3>
+            <ul>
+                <li><a href="#">Lorem ipsum dolor sit amet consectetur.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet consectetur.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet consectetur.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet consectetur.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet consectetur.</a></li>
+            </ul>
+        </div>
+        <div class="widget">
+            <h3 class="titulo">información</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minima autemsunt recusandae provident rerum sapiente quidem labore alias soluta veritatiseligendi aspernatur culpa ea repellendus hic cum, quasi debitis!</p>
+        </div>
+    </aside> -->
+    <!-- PIE DE PAGINA -->
+   <!--  <footer>
+        <p class="titulo-final">&copy; Gonzalo Guerrero</p>
+    </footer> -->
 
 </body>
 </html>

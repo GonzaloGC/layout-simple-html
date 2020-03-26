@@ -1,12 +1,55 @@
-/* *{
-    margin: 0;
-    
-} */
-
-body {
-    font-family:'Montserrat';
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.imagen-montaña {
-    width: 100%;
+body {
+	font-family: 'Montserrat';
+}
+
+.contenedor {
+}
+
+header {
+	/* background: url(../img/mountains.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center; */
+}
+
+header {
+	width: 100%;
+	height: 700px;
+	max-width: 1000%;
+	background: url('../img/mountains.jpg');
+	background-size: cover;
+	margin: auto;
+	overflow: hidden;
+}
+
+nav {
+	display: flex;
+	margin: 10px 10px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	/* position: fixed;  */
+}
+
+.nombres-nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 15px;
+}
+
+.logo img {
+	width: 10%;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+
+footer .redes-sociales {
+	color: black;
 }
